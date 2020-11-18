@@ -14,30 +14,30 @@
    <div class="wrapper">
       <div class="header__up">
          <a href="#" class="header__up_star">
-            <img src="img/star.png" height="23" width="24"/>
+            <img src="img/star.png" alt="img" height="23" width="24"/>
             <div class="header__up_counter">20</div>
          </a>
          <a href="#" class="header__up_bookmarks">
-            <img src="img/bookmarks.png" height="22" width="20"/>
+            <img src="img/bookmarks.png" alt="img" height="22" width="20"/>
             <div class="header__up_counter">9</div>
          </a>
          <a href="#" class="header__up_user">
-            <span>Артур Пиржок</span>
-            <img src="img/user.png" height="15" width="15"/>
+            <span>Артур Пирожков</span>
+            <img src="img/user.png" alt="img" height="15" width="15"/>
             <div class="header__up_counter">2</div>
          </a>
       </div>
       <div class="header__header">
          <div class="header__header_logo"></div>
          <div class="header__header_block">
-            <img src="img/geo.png" height="26" width="18"/>
+            <img src="img/geo.png" alt="img" height="26" width="18"/>
             <div>
                Ваш город: <br>
                <span class="city">Санкт-Петербург</span>
             </div>
          </div>
          <div class="header__header_block">
-            <img src="img/phone.png" height="26" width="16"/>
+            <img src="img/phone.png" alt="img" height="26" width="16"/>
             <div>
                <a href="tel:8 (812) 322-22-66">8 (812) 322-22-66</a>
                <br>
@@ -45,7 +45,7 @@
             </div>
          </div>
          <div class="header__header_block">
-            <img src="img/basket.png" height="26" width="33"/>
+            <img src="img/basket.png" alt="img" height="26" width="33"/>
             <div>
                <a href="#">
                   <span class="red">(10)</span> товаров
@@ -57,6 +57,32 @@
       </div>
    </div>
 </header>
+<div class="header-mobile">
+   <div class="header-mobile__phone">
+      <a href="tel:8 (812) 322-22-66">8 (812) 322-22-66</a>
+   </div>
+   <div class="header-mobile__head">
+      <div class="header-mobile__head_burger">
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <div class="header-mobile__head_logo"></div>
+      <a href="#" class="header-mobile__head_basket">
+         <div class="counter">22</div>
+      </a>
+   </div>
+   <div class="header-mobile__search">
+      <div class="header-mobile__search_search">
+         <input type="text" placeholder="Поиск">
+         <div class="search-btn"></div>
+      </div>
+      <div class="header-mobile__search_catalog">
+         Каталог
+         <img src="img/book.png" alt="img" width="21"/>
+      </div>
+   </div>
+</div>
 
 <div class="wrapper">
    <nav class="nav">
@@ -73,74 +99,342 @@
    </nav>
    <div class="breadcrumbs">
       <ul>
+         <li>
+            <a href="#">
+               <img src="img/back.png" alt="img" width="19"/>
+            </a>
+         </li>
          <li><a href="#">Главная</a></li>
          <li><a href="#">Покупателям</a></li>
          <li><a href="#">Резка и распил</a></li>
       </ul>
    </div>
-   <section class="section-1">
-      <div class="section-1__img">
-         <img src="img/car.png"/>
-      </div>
-      <div class="section-1__menu">
-         <ul>
-            <li class="active"><a href="#">Доставка</a></li>
-            <li><a href="#">Разгрузка и подъем</a></li>
-            <li><a href="#">Колеровка красок</a></li>
-            <li><a href="#">Резка и распил</a></li>
-            <li><a href="#">Оплата товара</a></li>
-            <li><a href="#">Программа лояльности</a></li>
-            <li><a href="#">Как заказать</a></li>
-            <li><a href="#">Возврат</a></li>
-         </ul>
-      </div>
-      <div class="section-1__text">
-         <h2>ДОСТАВКА ТОВАРА</h2>
-         <p>
-            Избавьтесь от забот по погрузке, доставке
-            и разгрузке купленного товара! Теперь всё
-            это мы сделаем за Вас! Быстро и бережно
-            доставим Вашу покупку на дачу, в квартиру
-            или на объект.
-         </p>
-      </div>
-   </section>
-   <div class="wrapper__wrapp">
-      <section class="section-2">
-         <h3>преимущества ДОСТАВКИ ОТ САТУРНА</h3>
-         <div class="section-2__blocks">
-            <div class="section-2__blocks_item item">
-               <div class="item__img item-car"></div>
-               <div class="item__text">
-                  Бесплатно или по минимальному тарифу
-                  (в «зоне действия единой стоимости доставки»)</div>
-            </div>
-            <div class="section-2__blocks_item item">
-               <div class="item__img item-ok"></div>
-               <div class="item__text">
-                  Бережная транспортировка на
-                  оборудованных автомобилях
+   <div class="box-shadow">
+      <section class="section-1">
+         <div class="section-1__img">
+            <img src="img/car.png" alt="img"/>
+         </div>
+         <div class="section-1__menu">
+            <ul>
+               <li class="active"><a href="#">Доставка</a></li>
+               <li><a href="#">Разгрузка и подъем</a></li>
+               <li><a href="#">Колеровка красок</a></li>
+               <li><a href="#">Резка и распил</a></li>
+               <li><a href="#">Оплата товара</a></li>
+               <li><a href="#">Программа лояльности</a></li>
+               <li><a href="#">Как заказать</a></li>
+               <li><a href="#">Возврат</a></li>
+            </ul>
+         </div>
+         <div class="section-1__text">
+            <h2>ДОСТАВКА ТОВАРА</h2>
+            <p>
+               Избавьтесь от забот по погрузке, доставке
+               и разгрузке купленного товара! Теперь всё
+               это мы сделаем за Вас! Быстро и бережно
+               доставим Вашу покупку на дачу, в квартиру
+               или на объект.
+            </p>
+         </div>
+      </section>
+      <div class="wrapper__wrapp">
+         <section class="section-2">
+            <h3>преимущества ДОСТАВКИ ОТ САТУРНА</h3>
+            <div class="section-2__blocks">
+               <div class="section-2__blocks_item item">
+                  <div class="item__img item-car"></div>
+                  <div class="item__text">
+                     Бесплатно или по минимальному тарифу <br>
+                     (в «зоне действия единой стоимости доставки»)
+                  </div>
+               </div>
+               <div class="section-2__blocks_item item">
+                  <div class="item__img item-ok"></div>
+                  <div class="item__text">
+                     Бережная транспортировка на
+                     оборудованных автомобилях
+                  </div>
+               </div>
+               <div class="section-2__blocks_item item">
+                  <div class="item__img item-time"></div>
+                  <div class="item__text">
+                     В удобное для вас время
+                  </div>
+               </div>
+               <div class="section-2__blocks_item item">
+                  <div class="item__img item-deliv"></div>
+                  <div class="item__text">
+                     Доставка по Петербургу, <br>
+                     области и пригородам
+                  </div>
                </div>
             </div>
-            <div class="section-2__blocks_item item">
-               <div class="item__img item-time"></div>
-               <div class="item__text">
-                  В удобное для вас время
+         </section>
+         <section class="section-3">
+            <div class="section-3__img">
+               <img src="img/iMac.png" alt="img" width="100%"/>
+            </div>
+            <div class="section-3__text">
+               <p>УЗНАЙТЕ СТОИМОСТЬ СВОЕЙ ДОСТАВКИ СЕЙЧАС!</p>
+               <a href="#" class="btn">Расчитатать</a>
+            </div>
+         </section>
+         <section class="section-4">
+            <div class="section-4__table">
+               <div class="section-4__table_row">
+                  <h3>ТИПЫ ДОСТАВКИ</h3>
+               </div>
+               <div class="section-4__table_row">
+                  <div class="type">В течение дня</div>
+                  <div class="desc">
+                     Осуществляется <b>с 9:00 до 22:00.</b><br>
+                     На <b>текущий день</b> доставка <b>оформляется до 10:30.</b></div>
+               </div>
+
+               <div class="section-4__table_row">
+                  <div class="type">Стандартная</div>
+                  <div class="desc">
+                     Осуществляется <b>с 9:00 до 22:00.</b><br>
+                     Заказ доставляется в течение выбранного 4-часового интервала. <br>
+                     На <b>сегодня оформляется до 17:30,</b> на последующие дни – в любое время.
+                  </div>
+               </div>
+
+               <div class="section-4__table_row">
+                  <div class="type">Горячая доставка</div>
+                  <div class="desc">
+                     Оформляется <b>только на сегодня,</b> начиная <b>с 9:00 до 17:00.</b> <br>
+                     Заказ доставляется в течение выбранного 2-часового интервала.
+                  </div>
+               </div>
+
+               <div class="section-4__table_row">
+                  <div class="type">Точно ко времени</div>
+                  <div class="desc">
+                     Заказ доставляется точно ко времени <b>в рамках интервала с 9:00 до 22:00.</b> <br>
+                     <b>Оформляется</b> не позднее чем <b>за 5 часов</b> до желаемого времени доставки.
+
+                     <p>
+                        (Чтобы мы привезли заказ сегодня, он должен быть оформлен и подтвержден оператором
+                        с 8:00 до 17:00. Если заказ будет оформлен и подтвержден сегодня после 17:00, он будет
+                        доставлен не ранее 13:00 завтрашнего дня).
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+            <div class="section-4__desc">
+               <p><b>Итоговое подтверждение</b> возможности доставки осуществляется оператором <b>по телефону.</b></p>
+               <a href="#">Подробная информация об условиях доставки.</a>
+            </div>
+
+         </section>
+         <section class="section-5">
+            <h3>РАЗГРУЗКА И ПОДЪЕМ</h3>
+            <p>
+               Мы заботимся о наших клиентах и всегда готовы предоставить полный комплекс услуг.
+               Помимо доставки мы можем осуществить <b>разгрузку, пронос и подъем</b> ваших товаров.
+            </p>
+            <div class="section-5__row">
+               <div class="section-5__img">
+                  <img src="img/sec5_img.png" alt="img" width="100%"/>
+               </div>
+               <div class="section-5__text">
+                  <p>НУЖНО РАЗГРУЗИТЬ И ПОДНЯТЬ ТОВАРЫ?</p>
+                  <a href="#" class="btn">ПОДРОБНОСТИ</a>
                </div>
             </div>
-            <div class="section-2__blocks_item item">
-               <div class="item__img item-deliv"></div>
-               <div class="item__text">
-                  Доставка по Петербургу,
-                  области и пригородам
+         </section>
+      </div>
+   </div>
+</div>
+
+<footer class="footer">
+   <div class="wrapper">
+      <div class="footer-row">
+         <div class="footer-col">
+            <div class="footer__offers">
+               <p>Получайте выгодные
+                  предложения, просто
+                  оставьте свою почту!</p>
+               <form>
+                  <input type="text" placeholder="Ваш email">
+                  <button type="submit"></button>
+               </form>
+
+            </div>
+            <div class="footer__socials">
+               <p>Мы в соцсетях</p>
+               <div class="footer__socials_social">
+                  <div class="vk"><a href="#">B</a></div>
+                  <div class="fb"><a href="#">f</a></div>
+                  <div class="classmates"><a href="#"></a></div>
+               </div>
+            </div>
+            <div class="footer__call">
+               <p>
+                  У вас остались вопросы?
+                  Позвоните нам!
+               </p>
+               <a href="tel:8 (812) 322-22-66">8 (812) 322-22-66</a>
+               <a href="tel:8 (800) 100-21-12">8 (800) 100-21-12</a>
+            </div>
+         </div>
+         <div class="footer-col">
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">КАТАЛОГ</a>
+               </div>
+               <div class="footer__block_links">
+                  <a href="#">Сухие смеси</a>, <a href="#">грунты</a>
+                  <a href="#">Гидро- и тепло- изоляция</a>
+                  <a href="#">Гипсокартон</a>
+                  <a href="#">Двери</a>, <a href="#">окна</a>, <a href="#">фурнитура</a>
+                  <a href="#">Пиломатериалы</a>
+                  <a href="#">Кровля</a>, <a href="#">водосток</a>
+                  <a href="#">Лаки</a>, <a href="#">краски</a>, <a href="#">герметики</a>
+                  <a href="#">Отделочные материалы</a>
+                  <a href="#">Общестроительные</a>
+                  <a href="#">Сантехника</a>, <a href="#">вентиляция</a>
+                  <a href="#">Электротехника</a>
+                  <a href="#">Инструменты</a>, <a href="#">оснастка</a>
+                  <a href="#">Метизы</a>, <a href="#">крепеж</a>
+                  <a href="#">Спецодежда</a> и <a href="#">хоз. товары</a>
                </div>
             </div>
          </div>
-      </section>
+         <div class="footer-col">
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">О компании</a>
+               </div>
+               <div class="footer__block_links">
+                  <div class="footer__links">
+                     <div><a href="#">О группе компаний</a></div>
+                     <div><a href="#">Вакансии</a></div>
+                     <div><a href="#">Реквизиты</a></div>
+                     <div><a href="#">Сотрудничество</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">Услуги</a>
+               </div>
+               <div class="footer__block_links">
+                  <div class="footer__links">
+                     <div><a href="#">Доставка товара</a></div>
+                     <div><a href="#">Разгрузка</a></div>
+                     <div><a href="#">Распил/резка</a></div>
+                     <div><a href="#">Колеровка</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">Интересное</a>
+               </div>
+               <div class="footer__block_links">
+                  <div><a href="#">Статьи</a></div>
+                  <div><a href="#">Обзоры</a></div>
+                  <div><a href="#">Советы</a></div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-col">
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">Аккаунты</a>
+               </div>
+               <div class="footer__block_links">
+                  <div class="footer__links">
+                     <div><a href="#">Профиль</a></div>
+                     <div><a href="#">Заказы</a></div>
+                     <div><a href="#">История заказов</a></div>
+                     <div><a href="#">Черновики заказов</a></div>
+                     <div><a href="#">Баланас САТов</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">Магазины</a>
+               </div>
+               <div class="footer__block_links">
+                  <div class="footer__links">
+                     <div><a href="#">Литовская ул., 15</a></div>
+                     <div><a href="#">Индустриальный пр., 71</a></div>
+                     <div><a href="#">Лахтинский пр., 139</a></div>
+                     <div><a href="#">Касимовская ул., 3</a></div>
+                     <div><a href="#">Хрулева ул., 12</a></div>
+                     <div><a href="#">Краснопутиловская ул, 31</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-col">
+            <div class="footer__block">
+               <div class="footer__block_title">
+                  <a href="#">Покупателям</a>
+               </div>
+               <div class="footer__block_links">
+                  <div class="footer__links">
+                     <div><a href="#">Акции</a></div>
+                     <div><a href="#">Как заказать</a></div>
+                     <div><a href="#">Подарочные карты</a></div>
+                     <div><a href="#">Обмен, возврат товара</a></div>
+                     <div><a href="#">Наши бренды</a></div>
+                     <div><a href="#">Наши партнеры</a></div>
+                     <div><a href="#">Оплата</a></div>
+                     <div><a href="#">Обратная связь</a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__pay">
+               <div class="footer__pay_card maestro"><a href="#"></a></div>
+               <div class="footer__pay_card visa"><a href="#"></a></div>
+               <div class="footer__pay_card master"><a href="#"></a></div>
+               <div class="footer__pay_card club"><a href="#"></a></div>
+            </div>
+            <div class="footer__map">
+               <a href="#">
+                  <img src="img/map.png" height="26" width="29"/>
+                  КАРТА САЙТА</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer-row">
+         <div class="footer-col">
+            <div class="footer__logo"><a href="#"></a></div>
+         </div>
+         <p class="footer__gr-comp">
+            Группа компаний "Сатурн" - крупнейший федеральный оператор на рынке строительных и отделочных материалов,
+            включает в себя 49 торговых площадок в 23 городах России. За 20 лет успешной работы компания стала лидером в
+            своем сегменте. В настоящий момент компания поставляет 15 000 наименований товаров на строительные объекты
+            по всей стране.
+         </p>
+      </div>
+
+      <p class="footer__copyright">
+         ООО “САТУРН”, 2016
+      </p>
+
+      <div class="footer-row">
+         <div class="footer__advantages">
+            <img src="img/footer_range.png" height="36" width="46"/>
+            <p>ПРАВИЛЬНЫЙ АССОРТИМЕНТ</p>
+         </div>
+         <div class="footer__advantages">
+            <img src="img/footer_price.png" height="41" width="40"/>
+            <p>ПРАВИЛЬНАЯ ЦЕНА</p>
+         </div>
+         <div class="footer__advantages">
+            <img src="img/footer_avail.png" height="35" width="37"/>
+            <p>НАЛИЧИЕ НА СКЛАДЕ</p>
+         </div>
+      </div>
    </div>
-
-</div>
-
-<footer></footer>
+</footer>
 </body>
 </html>
