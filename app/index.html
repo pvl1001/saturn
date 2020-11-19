@@ -6,6 +6,9 @@
          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="css/style.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
    <title>Saturn</title>
 </head>
 <body>
@@ -23,7 +26,7 @@
          </a>
          <a href="#" class="header__up_user">
             <span>Артур Пирожков</span>
-            <img src="img/user.png" alt="img" height="15" width="15"/>
+<!--            <img src="img/user.png" alt="img" height="15" width="15"/>-->
             <div class="header__up_counter">2</div>
          </a>
       </div>
@@ -112,19 +115,20 @@
    <div class="box-shadow">
       <section class="section-1">
          <div class="section-1__img">
+            <div class="section-1__bg"></div>
             <img src="img/car.png" alt="img"/>
-         </div>
-         <div class="section-1__menu">
-            <ul>
-               <li class="active"><a href="#">Доставка</a></li>
-               <li><a href="#">Разгрузка и подъем</a></li>
-               <li><a href="#">Колеровка красок</a></li>
-               <li><a href="#">Резка и распил</a></li>
-               <li><a href="#">Оплата товара</a></li>
-               <li><a href="#">Программа лояльности</a></li>
-               <li><a href="#">Как заказать</a></li>
-               <li><a href="#">Возврат</a></li>
-            </ul>
+            <div class="section-1__menu">
+               <ul>
+                  <li class="active"><a href="#">Доставка</a></li>
+                  <li><a href="#">Разгрузка и подъем</a></li>
+                  <li><a href="#">Колеровка красок</a></li>
+                  <li><a href="#">Резка и распил</a></li>
+                  <li><a href="#">Оплата товара</a></li>
+                  <li><a href="#">Программа лояльности</a></li>
+                  <li><a href="#">Как заказать</a></li>
+                  <li><a href="#">Возврат</a></li>
+               </ul>
+            </div>
          </div>
          <div class="section-1__text">
             <h2>ДОСТАВКА ТОВАРА</h2>
@@ -138,6 +142,40 @@
          </div>
       </section>
       <div class="wrapper__wrapp">
+         <div class="deliv-mobile">
+            <h5>Доставка</h5>
+            <p>
+               Если ваш адрес входит в «Зону действия единой стоимости доставки» (ЗЕСД), отмеченную <a href="#">на
+               карте</a> зеленым
+               цветом, в зависимости от суммы покупки мы доставим товар бесплатно или по фиксированной цене.
+            </p>
+            <br>
+            <p>
+               При сумме заказа от 20 000 руб. стандартная доставка в пределах ЗЕСД осуществляется БЕСПЛАТНО.
+               Если сумма вашего заказа не превышает 20 000 руб., то стоимость стандартной доставки в ЗЕСД -
+               <a href="#">фиксирована и зависит от типа транспортного средства</a>
+            </p>
+            <br>
+            <p>
+               Если ваш адрес не входит в ЗЕСД, то узнать стоимость вы можете в разделе <a href="#">"Расчет стоимости
+               доставки"</a>, а также по телефонам 8 (812) 322-22-66 или 8 (800) 100-21-12.
+            </p>
+            <br>
+            <p>
+               В случае если размеры материалов превышают габаритные размеры заказываемого автомобиля – их необходимо
+               предварительно <a href="#">распилить (разрезать)</a>.
+            </p>
+            <div class="deliv-mobile__banner">
+               <div class="deliv-mobile__banner_img">
+                  <img src="img/deliv_car_m.png" alt="img"/>
+               </div>
+               <div class="deliv-mobile__banner_text">
+                  <p>Узнайте стоимость
+                     своей доставки!</p>
+                  <a href="#" class="btn">Расчитать</a>
+               </div>
+            </div>
+         </div>
          <section class="section-2">
             <h3>преимущества ДОСТАВКИ ОТ САТУРНА</h3>
             <div class="section-2__blocks">
@@ -219,6 +257,7 @@
                         с 8:00 до 17:00. Если заказ будет оформлен и подтвержден сегодня после 17:00, он будет
                         доставлен не ранее 13:00 завтрашнего дня).
                      </p>
+                     <a href="#" class="dop-mobile">Дополнительная информация об условиях доставки.</a>
                   </div>
                </div>
 
@@ -245,6 +284,33 @@
                </div>
             </div>
          </section>
+         <div class="services-mobile">
+            <div class="services-mobile__title">Другие услуги</div>
+            <div class="slider swiper-container">
+               <div class="swiper-wrapper">
+                  <a href="#" class="slider__item swiper-slide">
+                     <div class="slider__item_img slide-deliv"></div>
+                     <p>Доставка</p>
+                  </a>
+                  <a href="#" class="slider__item swiper-slide">
+                     <div class="slider__item_img slide-man"></div>
+                     <p>Разгрузка и подем</p>
+                  </a>
+                  <a href="#" class="slider__item swiper-slide">
+                     <div class="slider__item_img slide-man"></div>
+                     <p>Клировка красов</p>
+                  </a>
+                  <a href="#" class="slider__item swiper-slide">
+                     <div class="slider__item_img slide-man"></div>
+                     <p>Резка  распил</p>
+                  </a>
+                  <a href="#" class="slider__item swiper-slide">
+                     <div class="slider__item_img slide-man"></div>
+                     <p>Оплата товара</p>
+                  </a>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -435,6 +501,34 @@
          </div>
       </div>
    </div>
+   <div class="footer-mobile">
+      <div class="footer-mobile__pay">
+         <a href="#">Оплата заказа картой</a>
+         <img src="img/footer_pay_m.png" alt="img" width="29"/>
+      </div>
+      <div class="footer-mobile__contacts">
+         <a href="tel:8 (812) 322-22-66">8 (812) 322-22-66</a>
+         <a href="#">Обратная связь</a>
+         <a href="#">Санкт-Петербург</a>
+         <a href="#">Полная версия сайта</a>
+      </div>
+   </div>
 </footer>
+
+<script src="js/script.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    })
+</script>
 </body>
 </html>

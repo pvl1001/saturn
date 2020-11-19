@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('helveticaneuecyrbold.woff2') format('woff2'),
+        url('helveticaneuecyrbold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('helveticaneuecyrroman.woff2') format('woff2'),
+        url('helveticaneuecyrroman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('helveticaneuecyrlight.woff2') format('woff2'),
+        url('helveticaneuecyrlight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('helveticaneuecyrmedium.woff2') format('woff2'),
+        url('helveticaneuecyrmedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
