@@ -52,6 +52,12 @@ header {
          margin-right: 30px;
       }
 
+      &_bookmarks {
+         .header__up_counter {
+            margin-top: -1px;
+         }
+      }
+
       &_user {
          font-size: 13px;
          line-height: 15px;
