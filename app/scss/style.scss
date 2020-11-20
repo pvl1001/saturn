@@ -366,9 +366,11 @@ h3 {
 
       img {
          position: absolute;
-         left: 20px;
-         top: -3px;
          margin: auto;
+         height: 100%;
+         left: 58%;
+         top: 50%;
+         transform: translate(-50%, -50%);
       }
    }
 
